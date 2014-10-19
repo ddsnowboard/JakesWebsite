@@ -1,5 +1,9 @@
+@font-face {
+	font-family: "Gill Sans";
+	url(gillSans.woff);
+}
 *{
-	font-family: 'Open Sans';
+	font-family: 'Gill Sans', 'Open Sans';
 }
 .imgCols {
 	width: 50%;
