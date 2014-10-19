@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "Gill Sans";
-	url(gillSans.woff);
+	src: url(gillSans.woff) format('woff');
 }
 *{
 	font-family: 'Gill Sans', 'Open Sans';
