@@ -1,3 +1,9 @@
 *{
 	font-family: 'Open Sans';
 }
+.imgCols {
+	width: 50%;
+}
+td {
+	padding: 0;
+}
