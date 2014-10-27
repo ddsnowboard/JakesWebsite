@@ -5,12 +5,15 @@
         content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
         <title>Nanotech Smart Surfaces</title>
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <!-- This stuff is commented because it isn't doing anything and 
+        it slows down the page load. If I need a button or something, I can de-comment
+        it and everything will be fine. -->
         <!-- <link rel="stylesheet" type="text/css" href="master.css" /> -->
         <!-- 
-		<script src="jquery-2.1.1.min.js"></script>
+                <script src="jquery-2.1.1.min.js"></script>
         <script src="script.js"></script>
         <script src="master.js"></script>
-		-->
+                -->
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:800' rel='stylesheet' type='text/css' />
     </head>
     <body style="width: 100%; background-color: #87CEEB;">
@@ -19,40 +22,41 @@
             <div style="color: red; margin-left: 25px; font-weight: bold; font-size: 36pt">SMART SURFACES 
             <span style="font-size: 12pt; margin-left: -10px;">LLC</span></div>
         </div>
-        <div style="text-align: center; color: rgb(120,120,120); font-size: 16pt; font-weight: bold;">Signs That Clean The Air</div>
+        <div style="text-align: center; color: rgb(120,120,120); font-size: 16pt; font-weight: bold;">Signs That Clean The
+        Air</div>
         <table style="margin-right: auto; margin-left: auto; text-align: center; display: inline-block; float: left; width: 50%">
             <tr>
                 <td style="text-align:right;">
-                    <img class="imgCols" id="img-left" src="image-left.jpg" />
+                    <figure>
+                        <img class="imgCols" id="img-left" src="image-left.jpg" />
+                        <figcaption>
+                            <a href="http://pureti.com/technology/how-it-works/photocatalysis.html" target="_blank"
+                            style="text-decoration: none; color: blue">How Photocatalytic Oxidation Works</a>
+                        </figcaption>
+                    </figure>
                 </td>
-            </tr>
-            <tr>
-                <td class="leftText" style="text-align: right; padding-right: 100px;">
-                    <a href="http://pureti.com/technology/how-it-works/photocatalysis.html" target="_blank" style="text-decoration: none; color: blue">How
-                    It Works</a>
-                </td>
-            </tr>
-            <tr>
-                <td class="left-text" style="text-align: right; padding-right: 100px;">
-                <br />(636) 328-2950</td>
             </tr>
         </table>
         <table style="margin-right: auto; margin-left: auto; text-align: center; display: inline-block; float: right; width: 50%">
             <tr>
                 <td style="text-align: left;">
-                    <img class="imgCols" src="image-right.jpg" />
+                    <figure>
+                        <img class="imgCols" src="image-right.jpg" />
+                        <figcaption>
+                            <a href="http://pureti.com/resources/testing-studies.html" target="_blank"
+                            style="text-decoration: none; color: blue">Scientific Testing &amp; Studies</a>
+                        </figcaption>
+                    </figure>
                 </td>
             </tr>
             <tr>
-                <td style="text-align: left; padding-left: 100px;">
-                    <a href="http://pureti.com/resources/testing-studies.html" target="_blank" style="text-decoration: none; color: blue">Testing &amp;
-                    Studies</a>
-                </td>
-            </tr>
-            <tr style="text-align: left;">
-                <td style=" padding-left: 40px;">
-                <br />info@nanotechsmartsurfaces.com</td>
+                <td style="text-align: left; padding-left: 100px;"></td>
             </tr>
         </table>
+        <div style="text-align: center; clear: both;">
+		<span style="color: rgb(120,120,120); font-size: 16pt; font-weight: bold;">
+		Bonded with pureti<sup>TM</sup></span>
+        <br />info@nanotechsmartsurfaces.com
+        <br />(636) 328-2950</div>
     </body>
 </html>
